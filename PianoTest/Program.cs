@@ -8,9 +8,9 @@ namespace PianoTest
         static void Main(string[] args)
         {
             Punto3D punto = new Punto3D(1, 2, 3);
-            Console.WriteLine(punto.X);
-            Console.WriteLine(punto.Y);
-            Console.WriteLine(punto.Z);
+            Console.WriteLine("x = " + punto.X);
+            Console.WriteLine("y = " + punto.Y);
+            Console.WriteLine("z = " + punto.Z);
         }
     }
 }
